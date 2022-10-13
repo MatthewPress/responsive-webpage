@@ -350,6 +350,10 @@ template {
           box-sizing: border-box;
 }
 
+body {
+  color: #048ca8;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -376,6 +380,13 @@ h1 {
   font-weight: 300;
   line-height: 1.15;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
 }
 
 .title-large {
@@ -455,5 +466,5 @@ h1 {
 
 .btn--secondary:hover, .btn--secondary:focus {
   background: white;
-  color: #16db93;
+  color: #048ca8;
 }
