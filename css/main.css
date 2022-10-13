@@ -347,3 +347,22 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 25%;
+  min-width: 10rem;
+  max-width: 15rem;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, right top, from(#048ca8), to(#16db93));
+  background: linear-gradient(to right, #048ca8, #16db93);
+  color: white;
+}
