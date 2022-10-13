@@ -348,6 +348,12 @@ template {
           box-sizing: border-box;
 }
 
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main-header {
   position: absolute;
   top: 0;
@@ -359,6 +365,10 @@ template {
   width: 25%;
   min-width: 10rem;
   max-width: 15rem;
+}
+
+.main-nav {
+  width: 60%;
 }
 
 .hero {
