@@ -426,3 +426,34 @@ h1 {
 .hero-img {
   display: none;
 }
+
+.btn {
+  display: inline-block;
+  padding: .75em 2.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:not-(:last-of-type) {
+  margin-bottom: .6em;
+}
+
+.btn--primary {
+  background: #d31869;
+  color: white;
+  border: 2px solid #d31869;
+}
+
+.btn--primary:hover, .btn--primary:focus {
+  background: #1c030e;
+}
+
+.btn--secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn--secondary:hover, .btn--secondary:focus {
+  background: white;
+  color: #16db93;
+}
